@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Post Message</title>
+</head>
+<body>
+    <div>
+        <iframe id="child" src="http://localhost:4000/data.html"></iframe>
+    </div>
+
+    <script type="text/javascript">
+         window.onload=function(){
+            window.frames[0].postMessage('I am from parent','http://localhost:4000');
+        }
+    </script>
+</body>
+</html>
