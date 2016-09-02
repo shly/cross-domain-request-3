@@ -62,3 +62,5 @@ between two windows with different origins.
 
 ##DEMO说明
 localhost:3000/app.html向localhost:4000/data.html发送信息
+##参考链接
+https://developer.mozilla.org/zh-CN/docs/Web/API/Window/postMessage
