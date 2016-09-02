@@ -39,7 +39,7 @@ the destination side and they are no longer usable on the sending side.
       return;
   
     // ...
-   }
+        }
 信息的属性包括以下几个：
 
 data
