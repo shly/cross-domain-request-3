@@ -2,7 +2,8 @@
 跨域请求解决方案三 html5-postMessage
 ## postMessage介绍
 window.postMessage 是一个安全的跨源通信的方法。一般情况下，当且仅当执行脚本的页面使用相同的协议（通常都是 http）、相同的端口（http默认使用80端口）和相同的 host（两个页面的 document.domain 的值相同）时，才允许不同页面上的脚本互相访问。 window.postMessage 提供了一个可控的机制来安全地绕过这一限制，当其在正确使用的情况下。
-##语法
+
+## 语法
 
     otherWindow.postMessage(message, targetOrigin);
 otherWindow
@@ -60,7 +61,7 @@ source
 A reference to the window object that sent the message; you can use this to establish two-way communication 
 between two windows with different origins.
 
-##DEMO说明
+## DEMO说明
 localhost:3000/app.html向localhost:4000/data.html发送信息
-##参考链接
+## 参考链接
 https://developer.mozilla.org/zh-CN/docs/Web/API/Window/postMessage
